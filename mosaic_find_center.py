@@ -36,7 +36,7 @@ preprocess_single = False
 
 import time
 import logging
-from scipy.misc import imresize
+from skimage.transform import resize as imresize
 from tomosaic.center import *
 
 logger = logging.getLogger(__name__)

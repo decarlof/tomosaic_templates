@@ -10,7 +10,7 @@ file_grid = tomosaic.start_file_grid(file_list, pattern=1)
 file_grid = np.fliplr(file_grid)
 print(file_grid)
 data_format = 'aps_32id'
-x_shift = 2235
+x_shift = 1159
 y_shift = 615
 
 
